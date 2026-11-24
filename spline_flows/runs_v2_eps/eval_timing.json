@@ -1,0 +1,14 @@
+{
+ "spline": {
+  "best_epoch": 80,
+  "ms_one_window": 274.951696395874,
+  "ms_per_window_in_batch_of_256": 1.0972023010253906,
+  "device": "NVIDIA L40S"
+ },
+ "waypoint": {
+  "best_epoch": 90,
+  "ms_one_window": 274.42479133605957,
+  "ms_per_window_in_batch_of_256": 1.1675385758280754,
+  "device": "NVIDIA L40S"
+ }
+}
