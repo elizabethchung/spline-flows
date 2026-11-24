@@ -2,7 +2,7 @@
 
 ## Overview
 
-The model aims to predict the next 32 frames (about 1 s) of G1 walking from the last 8 frames. We implemented two diffusion models that are identical except that one produces spline parameters (464 numbers) and the other produces waypoints (928 numbers). Then, we tested recovery from perturbed start poses with both time-indexed tracking and the spline flow field.
+The model aims to predict the next 32 frames (about 1 s) of G1 walking from the last 8 frames. I implemented two diffusion models that are identical except that one produces spline parameters (464 numbers) and the other produces waypoints (928 numbers). Then, I tested recovery from perturbed start poses with both time-indexed tracking and the spline flow field.
 
 ## Results
 
