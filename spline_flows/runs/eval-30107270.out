@@ -1,8 +1,0 @@
-name, driver_version
-NVIDIA L40S, 590.48.01
-torch 2.6.0+cu124 | cuda available: True
-spline: checkpoint from epoch 45, 3791 windows x 10 samples
-  one window 263.0 ms, batch of 256 1.05 ms per window
-waypoint: checkpoint from epoch 20, 3791 windows x 10 samples
-  one window 262.4 ms, batch of 256 1.16 ms per window
-saved /orcd/home/002/eychung/spline_flows/runs/eval_test.npz
