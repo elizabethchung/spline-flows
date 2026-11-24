@@ -1,0 +1,26 @@
+{
+ "target": "spline",
+ "params": 18006429,
+ "epochs_run": 500,
+ "steps": 35000,
+ "train_minutes": 6.59,
+ "gpu": "NVIDIA L40S",
+ "final_train_loss": 0.019524633546470625,
+ "final_val_loss_ema": 0.20713268282922268,
+ "quick_check": {
+  "windows": 256,
+  "pos_rmse_rad": 0.1976276399777176,
+  "vel_rmse_rad_s": 1.3676273770909877,
+  "batch_sampling_seconds": 0.36175012588500977
+ },
+ "args": {
+  "target": "spline",
+  "epochs": 500,
+  "batch_size": 256,
+  "lr": 0.0001,
+  "seed": 42,
+  "val_every": 10,
+  "max_steps": null,
+  "out": "/orcd/home/002/eychung/spline_flows/runs"
+ }
+}

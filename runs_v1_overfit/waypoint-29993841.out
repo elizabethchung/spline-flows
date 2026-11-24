@@ -1,0 +1,59 @@
+python: /home/eychung/.conda/envs/spline/bin/python
+name, memory.total [MiB], driver_version
+NVIDIA L40S, 46068 MiB, 590.48.01
+torch 2.6.0+cu124 | cuda available: True
+target=waypoint  train (17813, 32, 29)  test (3791, 32, 29)  device=cuda
+params 18,006,429  steps/epoch 70  total steps 35000
+epoch    1  step     70  train 1.0810  val(ema) 1.0344  0.0 min
+epoch   10  step    700  train 0.2316  val(ema) 0.2953  0.2 min
+epoch   20  step   1400  train 0.0966  val(ema) 0.1080  0.3 min
+epoch   30  step   2100  train 0.0715  val(ema) 0.0785  0.5 min
+epoch   40  step   2800  train 0.0595  val(ema) 0.0662  0.6 min
+epoch   50  step   3500  train 0.0518  val(ema) 0.0601  0.8 min
+epoch   60  step   4200  train 0.0465  val(ema) 0.0566  1.0 min
+epoch   70  step   4900  train 0.0430  val(ema) 0.0547  1.2 min
+epoch   80  step   5600  train 0.0396  val(ema) 0.0537  1.3 min
+epoch   90  step   6300  train 0.0378  val(ema) 0.0533  1.5 min
+epoch  100  step   7000  train 0.0354  val(ema) 0.0534  1.7 min
+epoch  110  step   7700  train 0.0332  val(ema) 0.0539  1.9 min
+epoch  120  step   8400  train 0.0322  val(ema) 0.0548  2.0 min
+epoch  130  step   9100  train 0.0307  val(ema) 0.0560  2.2 min
+epoch  140  step   9800  train 0.0290  val(ema) 0.0573  2.3 min
+epoch  150  step  10500  train 0.0279  val(ema) 0.0590  2.5 min
+epoch  160  step  11200  train 0.0269  val(ema) 0.0607  2.7 min
+epoch  170  step  11900  train 0.0260  val(ema) 0.0626  2.9 min
+epoch  180  step  12600  train 0.0251  val(ema) 0.0646  3.0 min
+epoch  190  step  13300  train 0.0244  val(ema) 0.0670  3.2 min
+epoch  200  step  14000  train 0.0232  val(ema) 0.0694  3.4 min
+epoch  210  step  14700  train 0.0227  val(ema) 0.0718  3.5 min
+epoch  220  step  15400  train 0.0215  val(ema) 0.0742  3.7 min
+epoch  230  step  16100  train 0.0211  val(ema) 0.0767  3.8 min
+epoch  240  step  16800  train 0.0202  val(ema) 0.0793  4.0 min
+epoch  250  step  17500  train 0.0200  val(ema) 0.0821  4.2 min
+epoch  260  step  18200  train 0.0195  val(ema) 0.0848  4.4 min
+epoch  270  step  18900  train 0.0183  val(ema) 0.0876  4.6 min
+epoch  280  step  19600  train 0.0174  val(ema) 0.0903  4.7 min
+epoch  290  step  20300  train 0.0176  val(ema) 0.0931  4.9 min
+epoch  300  step  21000  train 0.0170  val(ema) 0.0960  5.0 min
+epoch  310  step  21700  train 0.0167  val(ema) 0.0990  5.2 min
+epoch  320  step  22400  train 0.0160  val(ema) 0.1018  5.4 min
+epoch  330  step  23100  train 0.0158  val(ema) 0.1047  5.5 min
+epoch  340  step  23800  train 0.0152  val(ema) 0.1078  5.7 min
+epoch  350  step  24500  train 0.0152  val(ema) 0.1108  5.9 min
+epoch  360  step  25200  train 0.0142  val(ema) 0.1138  6.1 min
+epoch  370  step  25900  train 0.0147  val(ema) 0.1167  6.2 min
+epoch  380  step  26600  train 0.0140  val(ema) 0.1196  6.4 min
+epoch  390  step  27300  train 0.0139  val(ema) 0.1224  6.5 min
+epoch  400  step  28000  train 0.0139  val(ema) 0.1252  6.7 min
+epoch  410  step  28700  train 0.0133  val(ema) 0.1278  6.9 min
+epoch  420  step  29400  train 0.0137  val(ema) 0.1303  7.1 min
+epoch  430  step  30100  train 0.0132  val(ema) 0.1325  7.3 min
+epoch  440  step  30800  train 0.0129  val(ema) 0.1346  7.4 min
+epoch  450  step  31500  train 0.0129  val(ema) 0.1365  7.6 min
+epoch  460  step  32200  train 0.0131  val(ema) 0.1382  7.8 min
+epoch  470  step  32900  train 0.0126  val(ema) 0.1396  7.9 min
+epoch  480  step  33600  train 0.0127  val(ema) 0.1408  8.1 min
+epoch  490  step  34300  train 0.0123  val(ema) 0.1417  8.2 min
+epoch  500  step  35000  train 0.0132  val(ema) 0.1425  8.4 min
+quick check on 256 test windows: position 0.2111 rad, velocity 1.317 rad/s, sampling 0.42 s for the batch
+saved to /orcd/home/002/eychung/spline_flows/runs/waypoint
